@@ -13,15 +13,15 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNamePositiveE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Alia");
+    _Create_New_Customer_Account.Enter_First_Name("Alexandrine");
 
-    _Create_New_Customer_Account.Enter_Last_Name("Wilkinson");
+    _Create_New_Customer_Account.Enter_Last_Name("Boyer");
 
     _Create_New_Customer_Account.Enter_Email("huw.price@outlook.com");
 
-    _Create_New_Customer_Account.Enter_Password("ZmHr7WBIqV");
+    _Create_New_Customer_Account.Enter_Password("Qu3PX4D1CZ");
 
-    _Create_New_Customer_Account.Enter__Confirm_Password_("MfaDbRF8AU");
+    _Create_New_Customer_Account.Enter__Confirm_Password_("BL0bkBLSe4");
 
     _Create_New_Customer_Account.Click__Create_an_Account_();
 
@@ -33,15 +33,15 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNamePositiveE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Franz");
+    _Create_New_Customer_Account.Enter_First_Name("Boris");
 
-    _Create_New_Customer_Account.Enter_Last_Name("Friesen");
+    _Create_New_Customer_Account.Enter_Last_Name("Hoeger");
 
     _Create_New_Customer_Account.Enter_Email("huw.price@outlook.com");
 
-    _Create_New_Customer_Account.Enter_Password("KXEEZuFR6U");
+    _Create_New_Customer_Account.Enter_Password("ADPoFPDdmR");
 
-    _Create_New_Customer_Account.Enter__Confirm_Password_("3XvDfUord6");
+    _Create_New_Customer_Account.Enter__Confirm_Password_("XTgRtVR_W8");
 
     _Create_New_Customer_Account.Click__Allow_remote_shopping_assistance_();
 
@@ -55,15 +55,15 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNamePositiveE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Eino");
+    _Create_New_Customer_Account.Enter_First_Name("Leila");
 
-    _Create_New_Customer_Account.Enter_Last_Name("Swift");
+    _Create_New_Customer_Account.Enter_Last_Name("Gutmann");
 
     _Create_New_Customer_Account.Enter_Email("huw.price@outlook.com");
 
-    _Create_New_Customer_Account.Enter_Password("Y21dGFuGOu");
+    _Create_New_Customer_Account.Enter_Password("zQxw28PMKX");
 
-    _Create_New_Customer_Account.Enter__Confirm_Password_("aiJp0oigED");
+    _Create_New_Customer_Account.Enter__Confirm_Password_("z1Kpm0Evkj");
 
     _Create_New_Customer_Account.Click__Sign_Up_for_Newsletter_();
 
@@ -77,13 +77,13 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNamePositiveE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Xavier");
+    _Create_New_Customer_Account.Enter_First_Name("Stan");
 
-    _Create_New_Customer_Account.Enter_Last_Name("Balistreri");
+    _Create_New_Customer_Account.Enter_Last_Name("Conroy");
 
     _Create_New_Customer_Account.Enter_Email("huw.price@outlook.com");
 
-    _Create_New_Customer_Account.Enter_Password("gD8DrWYorc");
+    _Create_New_Customer_Account.Enter_Password("SNkLEVtTKN");
 
     _Create_New_Customer_Account.Enter__Confirm_Password_("#!_ @");
 
@@ -95,9 +95,9 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNamePositiveE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Maxime");
+    _Create_New_Customer_Account.Enter_First_Name("George");
 
-    _Create_New_Customer_Account.Enter_Last_Name("Rath");
+    _Create_New_Customer_Account.Enter_Last_Name("Bogisich");
 
     _Create_New_Customer_Account.Enter_Email("huw.price@outlook.com");
 
@@ -111,9 +111,9 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNamePositiveE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Makayla");
+    _Create_New_Customer_Account.Enter_First_Name("Sydnie");
 
-    _Create_New_Customer_Account.Enter_Last_Name("Kassulke");
+    _Create_New_Customer_Account.Enter_Last_Name("Bosco");
 
     _Create_New_Customer_Account.Enter_Email("huw.price");
 
@@ -125,7 +125,7 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNameNegativeE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Brandt");
+    _Create_New_Customer_Account.Enter_First_Name("Chanel");
 
     _Create_New_Customer_Account.Enter_Last_Name("");
 
@@ -137,7 +137,7 @@ def test_OpenCreateNewCustomerAccountpageGotopagePositiveEnterFirstNameNegativeE
     _Create_New_Customer_Account = pages.Create_New_Customer_Account.Create_New_Customer_Account(driver);
     _Create_New_Customer_Account.GoToUrl();
 
-    _Create_New_Customer_Account.Enter_First_Name("Viola");
+    _Create_New_Customer_Account.Enter_First_Name("Betty");
 
     _Create_New_Customer_Account.Enter_Last_Name("#!_ @");
 
