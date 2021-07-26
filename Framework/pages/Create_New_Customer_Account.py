@@ -2,30 +2,46 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
-""" http://modeller.dev.testinsights.io/app/#!/module-collection/guid/3d7c6b10-c1b2-495f-b124-591862a95ae8 """
+# https://curiosity.partner.testinsights.io/app/#!/module-collection/guid/2f411ddc-280c-424d-a534-4a1554de381d
 class Create_New_Customer_Account(object):
     
-    First_NameElem = (By.XPATH, "//INPUT[@name='firstname']")
+    First_NameElem = (By.XPATH, "//label[normalize-space()= 'First Name']/../div/input")
 
-    Last_NameElem = (By.XPATH, "//INPUT[@name='lastname']")
+    Last_NameElem = (By.XPATH, "//label[normalize-space()= 'Last Name']/../div/input")
 
-    EmailElem = (By.ID, "email_address")
+    _Sign_Up_for_Newsletter_Elem = (By.XPATH, "//label[normalize-space()= 'Sign Up for Newsletter']/../input")
 
-    PasswordElem = (By.ID, "password")
+    _Allow_remote_shopping_assistance_Elem = (By.XPATH, "//label[normalize-space()= 'Allow remote shopping assistance']/../input[1]")
 
-    Confirm_PasswordElem = (By.XPATH, "//INPUT[@name='password_confirmation']")
+    EmailElem = (By.XPATH, "//label[normalize-space()= 'Email']/../div/input")
 
-    Create_an_AccountElem = (By.XPATH, "/html/body/div[1]/main/div[3]/div/form/div/div[1]/button/span")
+    PasswordElem = (By.XPATH, "//label[normalize-space()= 'Password']/../div/input")
+
+    _Confirm_Password_Elem = (By.XPATH, "//label[normalize-space()= 'Confirm Password']/../div/input")
+
+    _Create_an_Account_Elem = (By.XPATH, "//BUTTON[@title='Create an Account']")
     
     def __init__(self, driver):
         self.driver = driver
 	
     
-    def GoToUrl(self):
-        self.driver.get('https://magento.nublue.co.uk/customer/account/create/')
-    
     def AssertUrl(self):
         assert self.driver.current_url == 'https://magento.nublue.co.uk/customer/account/create/'
+
+    def Click__Allow_remote_shopping_assistance_(self):
+        self.driver.find_element(self._Allow_remote_shopping_assistance_Elem[0], self._Allow_remote_shopping_assistance_Elem[1]).click()
+
+    def Click__Create_an_Account_(self):
+        self.driver.find_element(self._Create_an_Account_Elem[0], self._Create_an_Account_Elem[1]).click()
+
+    def Click__Sign_Up_for_Newsletter_(self):
+        self.driver.find_element(self._Sign_Up_for_Newsletter_Elem[0], self._Sign_Up_for_Newsletter_Elem[1]).click()
+
+    def Enter__Confirm_Password_(self, text):
+        self.driver.find_element(self._Confirm_Password_Elem[0], self._Confirm_Password_Elem[1]).send_keys(text)
+
+    def Enter_Email(self, text):
+        self.driver.find_element(self.EmailElem[0], self.EmailElem[1]).send_keys(text)
 
     def Enter_First_Name(self, text):
         self.driver.find_element(self.First_NameElem[0], self.First_NameElem[1]).send_keys(text)
@@ -33,14 +49,10 @@ class Create_New_Customer_Account(object):
     def Enter_Last_Name(self, text):
         self.driver.find_element(self.Last_NameElem[0], self.Last_NameElem[1]).send_keys(text)
 
-    def Enter_Email(self, text):
-        self.driver.find_element(self.EmailElem[0], self.EmailElem[1]).send_keys(text)
-
     def Enter_Password(self, text):
         self.driver.find_element(self.PasswordElem[0], self.PasswordElem[1]).send_keys(text)
 
-    def Enter_Confirm_Password(self, text):
-        self.driver.find_element(self.Confirm_PasswordElem[0], self.Confirm_PasswordElem[1]).send_keys(text)
-
-    def Click_Create_an_Account(self):
-        self.driver.find_element(self.Create_an_AccountElem[0], self.Create_an_AccountElem[1]).click()
+testy test
+    def GoToUrl(self):
+        self.driver.get('https://magento.nublue.co.uk/customer/account/create/')
+   
