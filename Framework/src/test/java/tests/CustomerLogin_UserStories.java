@@ -14,14 +14,14 @@ import utilities.testmodeller.TestModellerLogger;
 
 //https://curiosity.partner.testinsights.io/app/#!/model-engine/guid/bc15d739-5af6-4afd-8215-8bd79b1775eb
 @Listeners(TestNGListener.class)
-@TestModellerSuite(id = 7377, profileId = 115498)
+@TestModellerSuite(id = 7378, profileId = 115498)
 public class CustomerLogin_UserStories extends TestBase
 {
     
 
     
     @Test  (groups= {"Customer Login","Customer Login - User Stories"})
-    @TestModellerPath(guid = "7e44d8e5-8da7-43f6-b5f0-06da81855d52")
+    @TestModellerPath(guid = "3d42d4cb-0eb8-41b8-974b-57f82a49e668")
     public void GoToUrlNegativeEnterEmailNegativeEnterPasswordPasswordClickSignInClickTheaccountsigninwasincorr()
     {
         
@@ -45,7 +45,7 @@ public class CustomerLogin_UserStories extends TestBase
 
 
     @Test  (groups= {"Customer Login","Customer Login - User Stories"})
-    @TestModellerPath(guid = "299f1144-4d6d-42f1-bc0a-1f09d98fd5ac")
+    @TestModellerPath(guid = "2cb48294-a5c2-4074-88a1-f961868fdead")
     public void GoToUrlNegativeEnterEmailPositiveEnterPasswordPasswordClickSignInClickTheaccountsigninwasincorr()
     {
         
@@ -57,7 +57,7 @@ public class CustomerLogin_UserStories extends TestBase
     _Customer_Login.Enter_Email("huw.price");
 
     TestModellerLogger.SetLastNodeGuid("856adaa7-904c-46a7-9f11-c1a978a97575");
-    _Customer_Login.Enter_PasswordPassword("n_6YweIFBz");
+    _Customer_Login.Enter_PasswordPassword("pHIR5iR5G5");
 
     TestModellerLogger.SetLastNodeGuid("d1ff946c-a468-4c9f-9fe3-a7dc78c207fc");
     _Customer_Login.Click_Sign_In();
@@ -69,7 +69,7 @@ public class CustomerLogin_UserStories extends TestBase
 
 
     @Test  (groups= {"Customer Login","Customer Login - User Stories"})
-    @TestModellerPath(guid = "994e4f12-be19-48f1-85fc-0c56bf8837da")
+    @TestModellerPath(guid = "09a06e8b-6995-4af0-8632-12de69ddd29d")
     public void GoToUrlPositiveEnterEmailPositiveEnterPasswordPasswordClickSignInPositive()
     {
         
@@ -81,7 +81,7 @@ public class CustomerLogin_UserStories extends TestBase
     _Customer_Login.Enter_Email("huw.price@outlook.com");
 
     TestModellerLogger.SetLastNodeGuid("bde01afc-2863-49f2-babf-a8484257db9e");
-    _Customer_Login.Enter_PasswordPassword("Zeet2cwmna");
+    _Customer_Login.Enter_PasswordPassword("bRtau1TE2q");
 
     TestModellerLogger.SetLastNodeGuid("2686f25b-c1bf-49a1-ba32-bd9f463871e0");
     _Customer_Login.Click_Sign_In();
@@ -90,7 +90,7 @@ public class CustomerLogin_UserStories extends TestBase
 
 
     @Test  (groups= {"Customer Login","Customer Login - User Stories"})
-    @TestModellerPath(guid = "cb34fec2-a8e6-4229-926b-bf6f114445e4")
+    @TestModellerPath(guid = "de4b27f4-f0b8-4e35-885a-5ce5d83c8dca")
     public void GoToUrlPositiveEnterEmailNegativeEnterPasswordPasswordClickSignInClickTheaccountsigninwasincorr()
     {
         
